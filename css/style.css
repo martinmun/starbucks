@@ -30,3 +30,12 @@
     text-decoration: none;
     margin-left: 15px;
 }
+.main {
+    margin-top: 120px;
+}
+.main__title span {
+    color: #006241;
+}
+.main__description {
+    margin: 15px 0;
+}
