@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+*::selection {
+    background: #006241;
+    color: white;
+}
+.header {
+    background: #006241;
+    box-shadow: 3px 8px 15px 0px rgb(0, 0 , 0, 0.75);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+.header__container-logo {
+    width: 50px;
+}
+.header__nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.header__login {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
