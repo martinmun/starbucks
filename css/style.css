@@ -39,3 +39,132 @@
 .main__description {
     margin: 15px 0;
 }
+.gallery {
+    background: #006241;
+    padding: 20px;
+}
+.gallery__img {
+    margin-left: 10px;
+}
+.CONTACTANOS {
+    background: black;
+    padding: 40px 15px;
+}
+.contactanos__title {
+    color: #006241;
+    text-align: center;
+    font-size: 40px;
+}
+.contactanos__form {
+    color: white;
+    background-color:#006241;
+    padding: 15px;
+    width: 50%;
+    margin: 25px auto 15px;
+}
+.contactanos__correo input, 
+.contactanos__correo textarea {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #006241
+}
+.contactanos__correo input::placeholder,
+.contactanos__correo textarea::placeholder {
+    color: #006241;
+    font-weight: bold;
+    letter-spacing: 1.25px
+}
+.contactanos__correo  {
+    margin-top: 15px;
+}
+.contactanos__correo input:focus,
+.contactanos__correo textarea:focus {
+    background: black;
+    color: white;
+}
+.contactanos__btn {
+    background: inherit;
+    border: 2px solid white;
+    padding: 10px 20px;
+    width: 120px;
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 15px;
+    transition: all 0.5s;
+    cursor:pointer
+    }
+.contactanos__btn:hover {
+    background: yellow;
+    color: white;
+    border: 2px solid yellow;
+}
+.cards {
+    padding: 50px, 50px
+}
+.cards__card {
+    background: #006241;
+    width: 45%;
+    height: 550px;
+    margin-top: 25px;
+    color: white;
+    position: relative;
+}
+.cards__card-img {
+    width: 100%;
+}
+.cards__card-title span {
+    color: yellow;
+}
+.cards__card-btn {
+    background: inherit;
+    border: 2px solid white;
+    padding: 10px 20px;
+    width: 120px;
+    font-size: 15px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    transition: all 0.5s;
+    cursor:pointer
+}
+.cards__card-btn:hover {
+    background: yellow;
+    color: white;
+    border: 2px solid yellow;
+}
+.cards__card-description {
+    margin: 15px 0px;
+}
+.cards__card-container-text {
+    padding: 0 10px;
+}
+.cards__card-circle {
+    background: yellow;
+    border-radius: 50%;
+    color: black;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    font-weight: bolder;
+    position: absolute;
+    right: -25px;
+    top: -25px;
+}
+.footer {
+    background: black;
+    padding: 25px;
+    color: white;
+}
+.footer__link-user, 
+.footer__link-social,
+.footer__link-contact {
+    color:#006241;
+    font-size: 18px;
+    text-decoration: none;
+}
+.footer__link-contact {
+    color:#00ce30;
+}
